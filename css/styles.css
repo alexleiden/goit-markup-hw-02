@@ -1,0 +1,129 @@
+/* Подключение шрифтов и базовые стили */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для хедера */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E7E9FC;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2E2F42;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #4D5AE5;
+}
+
+/* Контакты в хедере */
+address ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+address a {
+    text-decoration: none;
+    color: #434455;
+    transition: color 0.3s;
+}
+
+address a:hover,
+address a:focus {
+    color: #4D5AE5;
+}
+
+/* Главный заголовок */
+main section:first-child {
+    text-align: center;
+    background-color: #2E2F42;
+    color: #FFFFFF;
+    padding: 80px 20px;
+}
+
+button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover,
+button:focus {
+    background-color: #404BBF;
+}
+
+/* Секция Our Features */
+section:nth-child(2) ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+/* Секция Our Team */
+section:nth-child(3) ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+/* Секция Our Portfolio */
+.portfolio-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.portfolio-item {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    display: block;
+}
+
+/* Стили для футера */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2E2F42;
+    color: #FFFFFF;
+}
