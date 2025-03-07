@@ -1,8 +1,9 @@
-/* Основные стили для страницы */
+/* Основні стилі для сторінки */
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    /* Задаємо фон для сторінки */
     margin: 0;
 }
 
@@ -19,6 +20,7 @@ ul {
 /* Стили для хедера */
 .header {
     background-color: #FFFFFF;
+    /* Фон для хедера */
 }
 
 .logo {
@@ -59,7 +61,7 @@ ul {
     color: #404bbf;
 }
 
-/* Стили для секции hero */
+/* Стили для секції hero */
 .hero {
     text-align: center;
     color: #FFFFFF;
@@ -89,7 +91,12 @@ ul {
     background-color: #404BBF;
 }
 
-/* Стили для секции features */
+/* Стили для секції features */
+.features {
+    background-color: #F4F4FD;
+    /* Фон для секції features */
+}
+
 .features h3 {
     color: #2E2F42;
     font-size: 20px;
@@ -105,7 +112,12 @@ ul {
     letter-spacing: 0.02em;
 }
 
-/* Стили для секции team */
+/* Стили для секції team */
+.team {
+    background-color: #FFFFFF;
+    /* Фон для секції team */
+}
+
 .team h2 {
     color: #2E2F42;
     font-size: 36px;
@@ -131,7 +143,12 @@ ul {
     letter-spacing: 0.02em;
 }
 
-/* Стили для секции portfolio */
+/* Стили для секції portfolio */
+.portfolio {
+    background-color: #FFFFFF;
+    /* Фон для секції portfolio */
+}
+
 .portfolio-title {
     color: #2E2F42;
     font-size: 36px;
@@ -162,24 +179,17 @@ ul {
     background-color: #2e2f42;
     padding: 20px;
     text-align: left;
-    /* добавим отступы между логотипом и текстом */
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
 }
 
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    display: inline-flex;
-    gap: 5px;
-    /* Между WEB и STUDIO */
 }
 
 .logo-web {
@@ -196,4 +206,18 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-top: 10px;
+}
+
+/* Стили для тега address */
+.header-address {
+    font-style: normal;
+    /* Убираем курсив */
+}
+
+/* Стили для ссылок в address */
+.header-link {
+    color: #2e2f42;
+    /* Цвет текста */
+    text-decoration: none;
+    /* Убираем подчеркивание */
 }
