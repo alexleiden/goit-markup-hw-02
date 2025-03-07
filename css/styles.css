@@ -211,13 +211,10 @@ ul {
 /* Стили для тега address */
 .header-address {
     font-style: normal;
-    /* Убираем курсив */
 }
 
 /* Стили для ссылок в address */
 .header-link {
     color: #2e2f42;
-    /* Цвет текста */
     text-decoration: none;
-    /* Убираем подчеркивание */
 }
