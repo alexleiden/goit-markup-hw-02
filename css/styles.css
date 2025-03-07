@@ -160,7 +160,8 @@ ul {
 /* Стили для футера */
 .footer-class {
     background-color: #2E2F42;
-    color: #FFFFFF;
+    width: 1440px;
+    height: 312px;
 }
 
 .footer-class .logo {
@@ -171,17 +172,19 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
 }
 
-.footer-class .logo span {
-    color: #f4f4fd;
-}
 
 .footer-class p {
-    color: #F4F4FD;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
-    margin-top: 20px;
+    color: #f4f4fd;
 }
