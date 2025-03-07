@@ -31,7 +31,7 @@ ul {
     color: #4D5AE5;
 }
 
-.logo span {
+.logo .logo-text {
     color: #2E2F42;
 }
 
@@ -47,22 +47,6 @@ ul {
     color: #404BBF;
 }
 
-.contact a {
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.contact a:hover,
-.contact a:focus {
-    color: #404BBF;
-}
-
-address {
-    font-style: normal;
-}
-
 /* Стили для секции hero */
 .hero {
     text-align: center;
@@ -75,7 +59,6 @@ address {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
 }
 
 .hero-btn {
@@ -95,43 +78,45 @@ address {
 }
 
 /* Стили для секции features */
-.features-title {
-    font-size: 36px;
-    font-weight: 700;
+.features h3 {
     color: #2E2F42;
-}
-
-.feature-title {
     font-size: 20px;
     font-weight: 500;
-    color: #2E2F42;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
-.feature-description {
-    font-size: 16px;
+.features p {
     color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* Стили для секции team */
-.team-title {
+.team h2 {
+    color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
-    color: #2E2F42;
+    text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
-.team-member-name {
+.team h3 {
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    color: #2E2F42;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
-.team-member-role {
-    font-size: 16px;
+.team p {
     color: #434455;
-}
-
-.team {
-    background-color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* Стили для секции portfolio */
@@ -176,13 +161,15 @@ address {
     color: #4D5AE5;
 }
 
-.footer-class .logo span {
-    color: #F4F4FD;
+.footer-logo-text {
+    color: #f4f4fd;
 }
 
 .footer-class p {
-    color: var(--footer-text-color, #F4F4FD);
+    color: #FFFFFF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
+    margin-top: 20px;
 }
