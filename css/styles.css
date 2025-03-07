@@ -1,75 +1,154 @@
-/* Подключение шрифтов и базовые стили */
+/* Подключение базовых шрифтов */
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
-    background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
-/* Стили для хедера */
+/* Сброс стилей */
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Стили для header */
 .body-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #FFFFFF;
-    border-bottom: 1px solid #E7E9FC;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e7e9fc;
 }
-
-.body-header a {
-    display: block;
-    padding: 24px 0;
-}
-
 
 .nav-list {
-    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-list a {
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+    color: #404bbf;
+}
+
+/* Контакты */
+.contact ul {
     display: flex;
     gap: 20px;
-    padding: 0;
-    margin: 0;
 }
 
-.logo {
-    font-family: "Raleway", sans-serif;
+.contact a {
+    transition: color 0.3s;
+}
+
+.contact a:hover,
+.contact a:focus {
+    color: #404bbf;
+}
+
+/* Hero section */
+.hero {
+    background-color: #2e2f42;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 56px;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
 }
 
-nav a:hover,
-nav a:focus {
-    color: #4D5AE5;
+.hero-btn {
+    background-color: #4d5ae5;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404bbf;
+}
+
+/* Секция Our Features */
+.features {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.features ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Секция Our Team */
+.team {
+    background-color: #f4f4fd;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.team ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.team h3 {
+    font-size: 20px;
+    font-weight: 700;
 }
 
 /* Секция Our Portfolio */
+.portfolio {
+    padding: 60px 40px;
+    text-align: center;
+}
+
 .portfolio-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    list-style: none;
-    padding: 0;
 }
 
 .portfolio-item {
-    background-color: #FFFFFF;
-    border-radius: 5px;
-    overflow: hidden;
-    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
 }
 
-.portfolio-item img {
-    width: 100%;
-    display: block;
+.portfolio-item:hover {
+    transform: scale(1.05);
 }
 
-/* Стили для футера */
+/* Footer */
 .footer-class {
+    background-color: #2e2f42;
+    color: #ffffff;
     text-align: center;
-    padding: 20px;
-    background-color: #2E2F42;
-    color: #FFFFFF;
+    padding: 40px;
 }
