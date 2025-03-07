@@ -161,38 +161,39 @@ ul {
 .footer {
     background-color: #2e2f42;
     padding: 20px;
-    /* добавь нужные отступы */
     text-align: left;
+    /* добавим отступы между логотипом и текстом */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    display: inline-flex;
+    gap: 5px;
+    /* Между WEB и STUDIO */
 }
 
 .logo-web {
     color: #4d5ae5;
 }
 
-.logo-studio {
+.logo-span {
     color: #f4f4fd;
 }
 
 .footer-text {
     color: var(--footer-text-color, #f4f4fd);
-    /* Используем CSS-переменную */
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-top: 10px;
-}
-
-.logo-span {
-    color: #f4f4fd;
 }
