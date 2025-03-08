@@ -1,9 +1,8 @@
-/* Основні стилі для сторінки */
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    /* Задаємо фон для сторінки */
     margin: 0;
 }
 
@@ -17,10 +16,18 @@ ul {
     margin: 0;
 }
 
-/* Стили для хедера */
 .header {
     background-color: #FFFFFF;
-    /* Фон для хедера */
+}
+/* Стили для тега address */
+.header-address {
+    font-style: normal;
+}
+
+/* Стили для ссылок в address */
+.header-link {
+    color: #2e2f42;
+    text-decoration: none;
 }
 
 .logo {
@@ -33,8 +40,8 @@ ul {
     color: #4D5AE5;
 }
 
-.logo span {
-    color: #f4f4fd;
+.header-logocolor {
+    color: #2e2f42;;
 }
 
 .nav-list a {
@@ -94,7 +101,6 @@ ul {
 /* Стили для секції features */
 .features {
     background-color: #F4F4FD;
-    /* Фон для секції features */
 }
 
 .features h3 {
@@ -115,7 +121,6 @@ ul {
 /* Стили для секції team */
 .team {
     background-color: #FFFFFF;
-    /* Фон для секції team */
 }
 
 .team h2 {
@@ -146,7 +151,6 @@ ul {
 /* Стили для секції portfolio */
 .portfolio {
     background-color: #FFFFFF;
-    /* Фон для секції portfolio */
 }
 
 .portfolio-title {
@@ -208,13 +212,3 @@ ul {
     margin-top: 10px;
 }
 
-/* Стили для тега address */
-.header-address {
-    font-style: normal;
-}
-
-/* Стили для ссылок в address */
-.header-link {
-    color: #2e2f42;
-    text-decoration: none;
-}
