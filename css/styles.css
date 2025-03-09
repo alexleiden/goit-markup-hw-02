@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2e2f42;
-    background-color: #ffffff;
+    color: #434455;
+    background-color: #FFFFFF;
     margin: 0;
 }
 
@@ -34,7 +34,7 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #434455;
 }
 
 .nav-item:hover,
@@ -89,6 +89,14 @@ ul {
     color: #2e2f42;
 }
 
+.features-item-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
 .features-item {
     background-color: #FFFFFF;
 }
@@ -111,6 +119,7 @@ ul {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .team-item-role {
@@ -132,6 +141,11 @@ ul {
     font-weight: 700;
     text-transform: capitalize;
 }
+
+.portfolio-list {
+    background-color: #FFFFFF;
+} 
+
 
 .portfolio-item-title {
     font-size: 20px;
