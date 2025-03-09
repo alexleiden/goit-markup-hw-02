@@ -1,188 +1,172 @@
-
+/* Стили для body */
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
-    margin: 0;
+    background-color: #ffffff;
 }
 
+/* Сброс стандартного оформления ссылок и списков */
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
-.header {
-    background-color: #FFFFFF;
-}
-/* Стили для тега address */
-.header-address {
-    font-style: normal;
-}
-
-/* Стили для ссылок в address */
-.header-link {
-    color: #2e2f42;
-    text-decoration: none;
-}
-
-.logo {
+.header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: #4d5ae5;
 }
 
-.header-logocolor {
-    color: #2e2f42;;
+ .logo-color  {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
 }
 
-.nav-list a {
-    color: #434455;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+/* Стили для хедера */
+.body-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 
-.nav-list a:hover,
-.nav-list a:focus {
-    color: #404bbf;
+.nav {
+    display: flex;
+    align-items: center;
 }
 
-.contact a {
-    color: #434455;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.nav-list {
+    display: flex;
+    gap: 20px;
 }
 
-.contact a:hover,
-.contact a:focus {
-    color: #404bbf;
+.nav-item:hover,
+.nav-item:focus {
+    color: #4d5ae5;
+
 }
 
-/* Стили для секції hero */
+/* Стили для контактов */
+.contact {
+    display: flex;
+}
+
+.contact-item:hover,
+.contact-item:focus {
+    color: #4d5ae5;
+}
+
+/* Стили для секции hero */
 .hero {
     text-align: center;
-    color: #FFFFFF;
-    background-color: #2E2F42;
+    padding: 50px 20px;
+    background-color: #2e2f42;
+    color: #ffffff;
 }
 
 .hero-title {
-    font-size: 56px;
+    font-size: 36px;
     font-weight: 700;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
 }
 
 .hero-btn {
-    background-color: #4D5AE5;
-    color: #FFFFFF;
+    background-color: #4d5ae5;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    border: none;
-    cursor: pointer;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: #404BBF;
+    background-color: #4d5ae5;
 }
 
-/* Стили для секції features */
+/* Стили для секции features */
 .features {
-    background-color: #F4F4FD;
+    padding: 50px 20px;
 }
 
-.features h3 {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.features p {
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-/* Стили для секції team */
-.team {
-    background-color: #FFFFFF;
-}
-
-.team h2 {
-    color: #2E2F42;
-    font-size: 36px;
-    font-weight: 700;
+.features-title {
     text-align: center;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: 700;
 }
 
-.team h3 {
-    color: #2E2F42;
+.features-item-title {
     font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+    font-weight: 700;
 }
 
-.team p {
-    color: #434455;
+.features-item-description {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
-/* Стили для секції portfolio */
+/* Стили для секции team */
+.team {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.team-title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.team-item-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.team-item-role {
+    font-size: 16px;
+    color: #757575;
+}
+
+/* Стили для секции portfolio */
 .portfolio {
-    background-color: #FFFFFF;
+    padding: 50px 20px;
 }
 
 .portfolio-title {
-    color: #2E2F42;
-    font-size: 36px;
-    font-weight: 700;
     text-align: center;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: 700;
 }
 
 .portfolio-item-title {
-    color: #2E2F42;
     font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+    font-weight: 700;
 }
 
 .portfolio-item-category {
-    color: #434455;
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    color: #757575;
 }
 
 /* Стили для футера */
 .footer {
     background-color: #2e2f42;
+    color: #ffffff;
+    text-align: center;
     padding: 20px;
-    text-align: left;
 }
 
 .footer-logo {
@@ -205,10 +189,8 @@ ul {
 }
 
 .footer-text {
-    color: var(--footer-text-color, #f4f4fd);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    margin-top: 10px;
+    width: 264px;
+    height: 112px;
 }
-
