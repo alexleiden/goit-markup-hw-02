@@ -1,8 +1,11 @@
 /* Стили для body */
+/* Стили для body */
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455;
+    color: #2e2f42;
     background-color: #ffffff;
+    margin: 0;
+    padding: 0;
 }
 
 /* Сброс стандартного оформления ссылок и списков */
@@ -13,26 +16,38 @@ a {
 
 ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
+/* Стили для логотипа в хедере */
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-
- .logo-color  {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
+    line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+}
+
+.header-logo .logo-color {
+    color: #ff6b08;
+}
+
+/* Стили для логотипа в футере */
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
+
+.footer-logo .logo-span {
+    color: #f4f4fd;
 }
 
 /* Стили для хедера */
@@ -55,8 +70,7 @@ ul {
 
 .nav-item:hover,
 .nav-item:focus {
-    color: #4d5ae5;
-
+    color: #ff6b08;
 }
 
 /* Стили для контактов */
@@ -66,7 +80,7 @@ ul {
 
 .contact-item:hover,
 .contact-item:focus {
-    color: #4d5ae5;
+    color: #ff6b08;
 }
 
 /* Стили для секции hero */
@@ -83,7 +97,7 @@ ul {
 }
 
 .hero-btn {
-    background-color: #4d5ae5;
+    background-color: #ff6b08;
     color: #ffffff;
     border: none;
     padding: 10px 20px;
@@ -94,12 +108,13 @@ ul {
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: #4d5ae5;
+    background-color: #e65a00;
 }
 
 /* Стили для секции features */
 .features {
     padding: 50px 20px;
+    background-color: #F4F4FD;
 }
 
 .features-title {
@@ -110,12 +125,29 @@ ul {
 
 .features-item-title {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.features-item {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
 }
 
 .features-item-description {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 /* Стили для секции team */
@@ -169,28 +201,7 @@ ul {
     padding: 20px;
 }
 
-.footer-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none;
-}
-
-.logo-web {
-    color: #4d5ae5;
-}
-
-.logo-span {
-    color: #f4f4fd;
-}
-
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
-    width: 264px;
-    height: 112px;
 }
