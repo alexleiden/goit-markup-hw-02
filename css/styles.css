@@ -180,6 +180,10 @@ ul {
     color: #434455;
 }
 
+.team-item {
+    background-color: #FFFFFF;
+}
+
 /* Стили для секции portfolio */
 .portfolio {
     padding: 50px 20px;
