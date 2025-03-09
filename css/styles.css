@@ -1,5 +1,4 @@
 /* Стили для body */
-/* Стили для body */
 body {
     font-family: 'Roboto', sans-serif;
     color: #2e2f42;
@@ -175,22 +174,29 @@ ul {
 /* Стили для секции portfolio */
 .portfolio {
     padding: 50px 20px;
+    background-color: #F4F4FD
 }
 
 .portfolio-title {
     text-align: center;
-    font-size: 28px;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
     font-weight: 700;
 }
 
 .portfolio-item-title {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-item-category {
     font-size: 16px;
-    color: #757575;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 /* Стили для футера */
