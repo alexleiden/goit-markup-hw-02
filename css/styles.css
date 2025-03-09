@@ -1,13 +1,10 @@
-/* Стили для body */
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2e2f42;
+    color: #434455;
     background-color: #ffffff;
     margin: 0;
-    padding: 0;
 }
 
-/* Сброс стандартного оформления ссылок и списков */
 a {
     text-decoration: none;
     color: inherit;
@@ -15,11 +12,9 @@ a {
 
 ul {
     list-style: none;
-    padding: 0;
     margin: 0;
 }
 
-/* Стили для логотипа в хедере */
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -34,25 +29,6 @@ ul {
     color: #2e2f42;
 }
 
-
-/* Стили для хедера */
-.body-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-
-.nav {
-    display: flex;
-    align-items: center;
-}
-
-.nav-list {
-    display: flex;
-    gap: 20px;
-}
-
 .nav-item {
     font-weight: 500;
     font-size: 16px;
@@ -61,29 +37,13 @@ ul {
     color: #2e2f42;
 }
 
-
 .nav-item:hover,
 .nav-item:focus {
     color: #404bbf;
 }
 
-/* Стили для контактов */
-.contact {
-    display: flex;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.contact-item:hover,
-.contact-item:focus {
-    color: #404bbf;
-}
-
-/* Стили для секции hero */
 .hero {
     text-align: center;
-    padding: 50px 20px;
     background-color: #2e2f42;
     color: #ffffff;
 }
@@ -98,10 +58,7 @@ ul {
 .hero-btn {
     background-color: #4d5ae5;
     color: #ffffff;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
     border: none;
-    padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
     font-weight: 500;
@@ -109,12 +66,10 @@ ul {
 
 .hero-btn:hover,
 .hero-btn:focus {
- background-color: #404BBF;
+    background-color: #404BBF;
 }
 
-/* Стили для секции features */
 .features {
-    padding: 50px 20px;
     background-color: #F4F4FD;
 }
 
@@ -132,29 +87,12 @@ ul {
     color: #2e2f42;
 }
 
-.features-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
 .features-item {
     background-color: #FFFFFF;
-    padding: 20px;
-    border-radius: 8px;
 }
 
-.features-item-description {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-/* Стили для секции team */
 .team {
-    padding: 50px 20px;
-    background-color: #f4f4fd;;
+    background-color: #f4f4fd;
     text-align: center;
 }
 
@@ -180,14 +118,8 @@ ul {
     color: #434455;
 }
 
-.team-item {
-    background-color: #FFFFFF;
-}
-
-/* Стили для секции portfolio */
 .portfolio {
-    padding: 50px 20px;
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
 }
 
 .portfolio-title {
@@ -196,7 +128,7 @@ ul {
     line-height: 1.11;
     letter-spacing: 0.02em;
     font-weight: 700;
-    text-transform: capitalize
+    text-transform: capitalize;
 }
 
 .portfolio-item-title {
@@ -213,15 +145,12 @@ ul {
     color: #434455;
 }
 
-/* Стили для футера */
 .footer {
     background-color: #2e2f42;
     color: #ffffff;
     text-align: center;
-    padding: 20px;
 }
 
-/* Стили для логотипа в футере */
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -231,14 +160,14 @@ ul {
     text-transform: uppercase;
     color: #4d5ae5;
 }
- 
+
 .logo-span {
     color: #f4f4fd;
 }
+
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
-
