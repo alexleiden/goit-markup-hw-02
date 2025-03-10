@@ -54,16 +54,9 @@ ul {
 }
 
 .hero {
+    text-align: center;
     background-color: #2e2f42;
-    text-align: center;
-    padding: 100px 0;
     color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100vh;
 }
 
 .hero-title {
@@ -71,8 +64,6 @@ ul {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
-    max-width: 600px;
 }
 
 .hero-btn {
@@ -80,9 +71,6 @@ ul {
     color: #ffffff;
     border: none;
     cursor: pointer;
-    border-radius: 4px;
-    margin-top: 20px;
-    padding: 10px 20px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     font-size: 16px;
@@ -96,11 +84,12 @@ ul {
 
 .features {
     background-color: #F4F4FD;
-    padding: 60px 0;
 }
 
 .features-title {
     text-align: center;
+    font-size: 28px;
+    font-weight: 700;
 }
 
 .features-item-title {
@@ -119,15 +108,18 @@ ul {
 }
 
 
-.features-item {
+.features-item { 
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
     background-color: #FFFFFF;
-    width: 264px;
-    height: 104px;
 }
 
 .team {
     background-color: #f4f4fd;
-    padding: 60px 0;
+    text-align: center;
 }
 
 .team-title {
@@ -141,10 +133,11 @@ ul {
 
 .team-item {
     background-color: #FFFFFF;
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
 }
 
 
@@ -165,7 +158,6 @@ ul {
 
 .portfolio {
     background-color: #F4F4FD;
-    padding: 60px 0;
 }
 
 .portfolio-title {
@@ -199,26 +191,9 @@ ul {
 }
 
 .footer {
-    width: 1440px;
-    height: 312px;
     background-color: #2e2f42;
     color: #ffffff;
     text-align: center;
-}
-
-.footer {
-    background-color: #2e2f42;
-    color: #ffffff;
-    padding: 40px 0;
-}
-
-.footer-container {
-    max-width: 1158px;
-    margin: 0 auto;
-    padding-left: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
 }
 
 .footer-logo {
@@ -228,6 +203,7 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: flex;
     color: #4d5ae5;
 }
 
@@ -236,8 +212,11 @@ ul {
 }
 
 .footer-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
     color: #F4F4FD;
 }
