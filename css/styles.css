@@ -88,8 +88,6 @@ ul {
 
 .features-title {
     text-align: center;
-    font-size: 28px;
-    font-weight: 700;
 }
 
 .features-item-title {
@@ -110,6 +108,8 @@ ul {
 
 .features-item {
     background-color: #FFFFFF;
+    width: 264px;
+    height: 104px;
 }
 
 .team {
@@ -128,6 +128,10 @@ ul {
 
 .team-item {
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
 }
 
 
@@ -181,6 +185,8 @@ ul {
 }
 
 .footer {
+    width: 1440px;
+    height: 312px;
     background-color: #2e2f42;
     color: #ffffff;
     text-align: center;
@@ -194,6 +200,10 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    width: 115px;
+    height: 24px;
+    display: block;
+    margin-right: 20px;
 }
 
 .logo-span {
@@ -205,4 +215,6 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    width: 264px;
+    height: 112px;
 }
