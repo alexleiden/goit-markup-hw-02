@@ -106,11 +106,6 @@ ul {
 
 
 .features-item { 
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 8px;
     background-color: #FFFFFF;
 }
 
@@ -192,9 +187,6 @@ ul {
 
 .footer-container {
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     max-width: 264px;
 } 
 
@@ -206,7 +198,6 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    display: flex;
     color: #4d5ae5;
 }
 
