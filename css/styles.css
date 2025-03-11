@@ -29,6 +29,12 @@ ul {
     color: #2e2f42;
 }
 
+
+.contact {
+    font-style: normal;
+} 
+
+
 .contact-item {
     line-height: 1.5;
     letter-spacing: 0.02em;
